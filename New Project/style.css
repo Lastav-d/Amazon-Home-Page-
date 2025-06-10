@@ -1,0 +1,273 @@
+*{
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;  
+}
+.navbar{
+    height:60px;
+    background-color:#0F1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:114px;
+}
+.logo{
+    background-image:url("Amazon.webp");
+    background-size:cover;
+    background-color:black;
+    height:50px;
+    width:114px;
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover {
+    border:1.5px solid white;
+}
+
+/* box2 */
+.deliever{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+.india{
+    font-size:1rem;
+    margin-left:4px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+
+/* box3 */
+.nav-search{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: pink;
+    width:680px;
+    height:40px;
+    border-radius:3px;
+}
+.search-select{
+    background-color:#E6E6E6;
+    color:#0F1111;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+.search-icon {
+    width: 45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color:#febd68;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    color:#0F1111;
+}
+
+.nav-search:hover{
+    border:2px solid orange; 
+}
+
+/* box4 */
+.image{
+    height:14px;
+    width:20px;
+    background-image:url("us_flag.webp");
+    background-size:cover;
+}
+.language-box{
+    display:flex;   
+    align-items:center;
+    background-color: #0f1111;
+    color: white;
+    border:1.5px solid transparent;
+    padding: 5px 10px;
+    gap:5px;
+    border-radius:3px;
+    font-size:14px;
+    cursor:pointer;
+}
+.language-box i {
+  font-size: 10px;
+}
+
+/* box5 */
+span{
+    font-size:0.75rem;
+}
+.account{
+    font-size:0.95rem;
+    font-weight:700;
+    line-height:15px;
+}
+.box5_1{
+    display:flex;
+    align-items:center;
+    gap:4px;
+}
+
+/* Box6 */
+
+span{
+    font-size:0.75rem;
+}
+.Orders{
+    font-size:0.95rem;
+    font-weight:700;
+    line-height:15px;
+}
+
+/* Box7 */
+
+.box7 i{
+    font-size:32px;
+}
+.box7{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/* panell */
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.panel-opt p{
+    display : inline ;
+    margin-left:20px;
+}
+.panel-opt{
+    width:70%;
+    font-size:0.85rem;
+}
+.menu{
+    width:10%;
+}
+
+/* hero-section */
+
+.hero-sec{
+    background-image: url("hero-sec.jpg");
+    height:380px;
+    background-size:cover;
+    display:flex;
+     justify-content:center;
+     align-items:flex-end;
+
+}
+.hero-msg{
+    background-color:white;
+    color:black;
+    height:40px;
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    font-size:0.85rem;
+   margin-bottom:30px;
+    width: 80%;
+}
+
+.hero-msg a{
+    color: #2162A1
+}
+
+/* shop selection */
+
+.box{
+    width:23%;
+    /* border:2px solid black; */
+    height:400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:15px;
+
+}
+
+.shop-sec{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6; 
+}
+ 
+.box-img{
+    height:300px;
+    margin-top:10px;
+    background-size:cover;
+    margin-bottom:10px;
+}
+
+.box a{
+    color:#2162A1
+}
+.box-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+/* footer */
+
+.foot-panel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:0.85rem;
+}
+footer{
+    margin-top:15px;
+}
+
+.foot-panel2{
+    background-color:#26313e;
+    color:white;
+    height:500px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top:15px;
+    color:#dddddd;
+}
+
+ul{
+    margin-top:20px;
+}
+
+.foot-panel3{
+    background-color:#26313e;
+    color:white;
+    border-top:0.5px solid white;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
